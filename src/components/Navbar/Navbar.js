@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../../images/burguer-logo.png'
+import './Navbar.css'
 
 function Navbar() {
     return (
@@ -19,9 +20,9 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-img">
-                            <Link to='/' className='nav-link'>
-                                <img src={logo} alt=""/>
-                            </Link>
+                            {/* <Link to='/' className='nav-link'> */}
+                                <img className='img-logo' src={logo} alt=""/>
+                            {/* </Link> */}
                         </li>
                         <li className="nav-item">
                             <Link to='/' className='nav-link'>

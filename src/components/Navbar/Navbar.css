@@ -1,0 +1,38 @@
+.navbar-container {
+  /* border: 1px solid red; */
+  height: 80px;
+  display: flex;
+  background-color: #f3c623;
+}
+
+.navbar-wrapper {
+  /* border: 1px solid green; */
+  width: 100%;
+}
+
+.nav-menu {
+  /* border: 1px solid blue; */
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 55px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  /* border: 1px solid blue; */
+}
+
+.img-logo {
+  /* border: 1px solid orange; */
+  width: 80px;
+  margin-right: 55px;
+}
