@@ -1,9 +1,41 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import logo from '../../images/burguer-logo.png'
 
 function Navbar() {
     return (
         <>
-            <h1>NAVBAR</h1>
+            <div className="navbar-container">
+                <nav className="navbar-wrapper">
+                    <ul className="nav-menu">
+                        <li className="nav-item">
+                            <Link to='/' className='nav-link'>
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/' className='nav-link'>
+                                Sobre
+                            </Link>
+                        </li>
+                        <li className="nav-img">
+                            <Link to='/' className='nav-link'>
+                                <img src={logo} alt=""/>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/' className='nav-link'>
+                                Menu
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/' className='nav-link'>
+                                Endereço
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </>
     )
 }
