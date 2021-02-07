@@ -8,6 +8,7 @@ function Navbar() {
     const [click, setClick] = useState(false)
 
     const handleClickMenu = () => setClick(!click)
+    const closeMobileMenu = () => setClick(false);
     return (
         <>
             <div className="navbar-container">
@@ -22,27 +23,27 @@ function Navbar() {
                         </li>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/' className='nav-link'>
+                            <Link to='/' onClick={handleClickMenu} className='nav-link'>
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/' className='nav-link'>
+                            <Link to='/' onClick={handleClickMenu} className='nav-link'>
                                 Sobre
                             </Link>
                         </li>
                         <li className="nav-img">
                             {/* <Link to='/' className='nav-link'> */}
-                                <img className='img-logo' src={logo} alt=""/>
+                                <img  onClick={handleClickMenu} className='img-logo' src={logo} alt=""/>
                             {/* </Link> */}
                         </li>
                         <li className="nav-item">
-                            <Link to='/' className='nav-link'>
+                            <Link to='/' onClick={handleClickMenu} className='nav-link'>
                                 Menu
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/' className='nav-link'>
+                            <Link to='/' onClick={handleClickMenu} className='nav-link'>
                                 Endereço
                             </Link>
                         </li>
