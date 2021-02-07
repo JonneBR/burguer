@@ -15,7 +15,12 @@ function Navbar() {
                     <div onClick={handleClickMenu} className="menu-icon">
                     {click ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
                     </div>
-                    <ul className="nav-menu">
+                    <li className="nav-img-menu">
+                            {/* <Link to='/' className='nav-link'> */}
+                                <img className='img-logo' src={logo} alt=""/>
+                            {/* </Link> */}
+                        </li>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
                             <Link to='/' className='nav-link'>
                                 Home
