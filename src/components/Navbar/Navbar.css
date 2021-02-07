@@ -42,11 +42,13 @@
 }
 
 .nav-link {
-  /* border: 1px solid blue; */
   text-decoration: none;
   color: black;
   font-family: 'Itim', cursive;
   font-size: 25px;
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgb(151, 15, 15);
 }
 
 .img-logo {
@@ -73,9 +75,24 @@
     width: 100%;
     margin: 0;
     position: absolute;
-    top: -200px;
+    top: -250px;
     flex-direction: column;
     transition: all 0.5s ease;
+  }
+
+  .nav-link:hover {
+    border: 0;
+    transform: scale(1.1);
+    transition: all;
+    color: rgb(151, 15, 15);
+    font-size: 28px;
+  }
+  .nav-link:active {
+    border: 0;
+    transform: scale(1.1);
+    transition: all;
+    color: rgb(151, 15, 15);
+    font-size: 35px;
   }
   .nav-menu.active {
     /* border: 1px solid red; */
@@ -90,7 +107,7 @@
 
   .nav-img {
     position: absolute;
-    margin-top: 250px;
+    margin-top: 300px;
   }
   .nav-img-menu {
     display: flex;
