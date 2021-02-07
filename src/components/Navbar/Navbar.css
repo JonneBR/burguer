@@ -46,11 +46,12 @@
   text-decoration: none;
   color: black;
   font-family: 'Itim', cursive;
+  font-size: 25px;
 }
 
 .img-logo {
   /* border: 1px solid orange; */
-  width: 80px;
+  width: 85px;
   margin-right: 55px;
   margin-left: 55px;
 }
