@@ -21,30 +21,30 @@ function ApresentationPage() {
               <img src={imgThree} alt='' />
             </div>
           </div>
-          <div className='description-wrapper'>
-            <div className='content-description'>
-              <h1>PARA TODOS OS GOSTOS !</h1>
-              <p>
-                Seja vegano ou hamburguer artesanal, você irá se apaixonar pelo
-                sabor!
-              </p>
-            </div>
-            <div className='content-description'>
-              <h1>PARA TODOS OS GOSTOS !</h1>
-              <p>
-                Seja vegano ou hamburguer artesanal, você irá se apaixonar pelo
-                sabor!
-              </p>
-            </div>
-            <div className='content-description'>
-              <h1>PARA TODOS OS GOSTOS !</h1>
-              <p>
-                Seja vegano ou hamburguer artesanal, você irá se apaixonar pelo
-                sabor!
-              </p>
-            </div>
-          </div>
         </header>
+        <div className='description-wrapper'>
+          <div className='content-description'>
+            <h1>PARA TODOS OS GOSTOS !</h1>
+            <p>
+              Seja vegano ou hamburguer artesanal, você irá se apaixonar pelo
+              sabor!
+            </p>
+          </div>
+          <div className='content-description'>
+            <h1>PARA TODOS OS GOSTOS !</h1>
+            <p>
+              Seja vegano ou hamburguer artesanal, você irá se apaixonar pelo
+              sabor!
+            </p>
+          </div>
+          <div className='content-description'>
+            <h1>PARA TODOS OS GOSTOS !</h1>
+            <p>
+              Seja vegano ou hamburguer artesanal, você irá se apaixonar pelo
+              sabor!
+            </p>
+          </div>
+        </div>
       </section>
     </>
   );
