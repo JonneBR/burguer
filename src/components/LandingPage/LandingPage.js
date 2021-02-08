@@ -10,9 +10,9 @@ function LandingPage() {
           <h1 className='header-title'>Horários:</h1>
           <p className='description'>De quarta a segunda apartir das 19h</p>
         </div>
-        <div className='info-container'>
-          <h1 className='header-title'>Horários:</h1>
-          <p className='description'>De quarta a segunda apartir das 19h</p>
+        <div className='button-container'>
+        <button className="button-subject">PEÇA AGORA</button>
+          
         </div>
         <div className='info-container'>
           <h1 className='header-title'>Telefone:</h1>
