@@ -1,0 +1,32 @@
+.section-content {
+  /* padding: 250px 0; */
+  border: 1px solid red;
+  background-color: #d3e0ea;
+}
+.apresentation-images {
+  /* border: 1px solid orange; */
+  height: 60vh;
+}
+
+.images-wrapper {
+  /* border: 1px solid orange; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image-item {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  width: 487px;
+  height: 260px;
+}
+
+.image-item img {
+  object-fit: cover;
+  width: 487px;
+  height: 260px;
+}
+.image-item:nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
