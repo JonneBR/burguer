@@ -22,6 +22,7 @@
 }
 
 .image-item img {
+  border: 1px solid red;
   object-fit: cover;
   width: 487px;
   height: 260px;
@@ -29,4 +30,36 @@
 .image-item:nth-child(2) {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.description-wrapper {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-description:nth-child(2) {
+  margin-left: 185px;
+  margin-right: 185px;
+}
+
+.content-description {
+  /* border: 1px solid green; */
+  margin-top: 10px;
+  width: 330px;
+}
+
+.content-description h1 {
+  font-family: 'Jomhuria', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.content-description p {
+  /* border: 1px solid green; */
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Itim', cursive;
 }
