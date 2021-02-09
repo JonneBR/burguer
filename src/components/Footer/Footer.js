@@ -20,7 +20,9 @@ function Footer() {
             <i class='fab fa-whatsapp'></i>
           </div>
         </div>
-        <div className='creator-info'></div>
+        <div className='creator-info'>
+          <p>Desenvolvido por João Marcos Gonçalves | © 2021 Jonne Soluções</p>
+        </div>
       </footer>
     </>
   );

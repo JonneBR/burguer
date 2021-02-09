@@ -64,3 +64,15 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.creator-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator-info p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+}
