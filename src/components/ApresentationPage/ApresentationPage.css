@@ -1,21 +1,14 @@
 .section-content {
-  /* padding: 250px 0; */
-  height: 140vh;
-  /* border: 1px solid red; */
+  height: 60vh;
   background-color: #d3e0ea;
-}
-.apresentation-images {
-  /* padding: 60vh; */
 }
 
 .images-wrapper {
-  /* border: 1px solid orange; */
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .image-item {
-  /* border: 1px solid red; */
   margin-top: 20px;
   margin-bottom: 20px;
   width: 487px;
@@ -23,7 +16,6 @@
 }
 
 .image-item img {
-  /* border: 1px solid red; */
   object-fit: cover;
   width: 487px;
   height: 260px;
@@ -34,7 +26,6 @@
 }
 
 .description-wrapper {
-  /* border: 1px solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -46,8 +37,6 @@
 }
 
 .content-description {
-  /* border: 1px solid green; */
-  /* margin-top: 10px; */
   width: 330px;
 }
 
@@ -58,7 +47,6 @@
 }
 
 .content-description p {
-  /* border: 1px solid green; */
   text-align: center;
   width: 100%;
   font-size: 20px;
@@ -66,6 +54,10 @@
 }
 
 @media screen and (max-width: 1580px) {
+  .section-content {
+    height: 100vh;
+    background-color: #d3e0ea;
+  }
   .image-item:last-child {
     position: absolute;
     margin-top: 460px;
@@ -76,7 +68,6 @@
   }
 
   .image-item:nth-child(2) {
-    /* border: 1px solid blue; */
     margin-left: 20px;
     margin-right: 0px;
   }
@@ -87,12 +78,15 @@
 }
 
 @media screen and (max-width: 1070px) {
+  .section-content {
+    height: 140vh;
+    background-color: #d3e0ea;
+  }
+
   .image-item:last-child {
-    /* position: absolute; */
     margin-top: 900px;
   }
   .content-description:last-child {
-    /* position: absolute; */
     margin-top: 885px;
   }
 
@@ -110,8 +104,12 @@
 }
 
 @media screen and (max-width: 550px) {
+  .section-content {
+    height: 200vh;
+    background-color: #d3e0ea;
+  }
+
   .image-item {
-    /* border: 1px solid red; */
     margin-top: 20px;
     margin-bottom: 20px;
     width: 387px;
@@ -119,9 +117,24 @@
   }
 
   .image-item img {
-    /* border: 1px solid red; */
     object-fit: cover;
     width: 387px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image-item {
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 357px;
+    height: 200px;
+  }
+
+  .image-item img {
+    object-fit: cover;
+    width: 357px;
     height: 200px;
   }
 }
