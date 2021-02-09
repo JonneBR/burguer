@@ -110,17 +110,18 @@
 }
 
 @media screen and (max-width: 550px) {
-  .image-item img {
-    border: 1px solid red;
-    object-fit: cover;
-    width: 90vw;
-    height: 47vw;
-    margin-left: 3%;
+  .image-item {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 387px;
+    height: 200px;
   }
 
-  .image-item:nth-child(2) {
-    /* border: 1px solid blue; */
-    margin-left: 3%;
-    margin-right: 0px;
+  .image-item img {
+    /* border: 1px solid red; */
+    object-fit: cover;
+    width: 387px;
+    height: 200px;
   }
 }
