@@ -6,6 +6,8 @@
 .footer-wrapper {
   /* border: 1px solid blue; */
   height: 70%;
+  display: flex;
+  align-items: center;
   background-color: #303030;
 }
 
@@ -13,4 +15,52 @@
   /* border: 1px solid red; */
   background-color: #504b4b;
   height: 30%;
+}
+
+.address-info {
+  /* border: 1px solid red; */
+  width: 60%;
+  margin-left: 100px;
+  color: #fff;
+}
+.address-info h1 {
+  /* border: 1px solid red; */
+  font-family: Jomhuria;
+  font-size: 50px;
+  font-weight: 200;
+}
+.address-info p {
+  /* border: 1px solid red; */
+  width: 19%;
+  font-family: Itim;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.address-info span {
+  color: #ffa500;
+}
+
+.social-medias {
+  color: #fff;
+}
+
+.social-medias h1 {
+  /* border: 1px solid red; */
+  font-family: Jomhuria;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.social-medias i {
+  /* border: 1px solid red; */
+  margin-bottom: 18px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.social-medias i:nth-child(3) {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -125,7 +125,7 @@
 
 @media screen and (max-width: 500px) {
   .image-item {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 20px;
     margin-bottom: 20px;
     width: 357px;
