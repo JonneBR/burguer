@@ -1,0 +1,16 @@
+.footer-container {
+  /* border: 1px solid red; */
+  height: 25vh;
+}
+
+.footer-wrapper {
+  /* border: 1px solid blue; */
+  height: 70%;
+  background-color: #303030;
+}
+
+.creator-info {
+  /* border: 1px solid red; */
+  background-color: #504b4b;
+  height: 30%;
+}
