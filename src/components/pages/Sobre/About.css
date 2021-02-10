@@ -1,5 +1,41 @@
 .about-hero-section {
-  height: 100vh;
-  border: 1px solid red;
+  height: 95vh;
+  /* border: 1px solid red; */
   background-color: #226470;
+  display: flex;
+}
+
+.container-info-wrapper {
+  /* border: 1px solid red; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.container-info {
+  /* border: 1px solid blue; */
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 70%;
+  margin-left: 40px;
+}
+
+.container-info h1,
+p {
+  color: white;
+}
+
+.container-info h1 {
+  font-family: Jomhuria;
+  font-size: 50px;
+  margin-left: 15px;
+}
+
+.container-info p {
+  /* border: 1px solid red; */
+  /* text-align: left; */
+  font-family: Itim;
+  width: 90%;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
