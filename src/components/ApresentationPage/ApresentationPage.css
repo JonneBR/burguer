@@ -138,3 +138,19 @@
     height: 200px;
   }
 }
+
+@media screen and (max-height: 500px) {
+  .section-content {
+    border: 1px solid red;
+    height: 1400px;
+    background-color: #d3e0ea;
+  }
+}
+
+@media screen and (max-height: 1024px) {
+  .section-content {
+    border: 1px solid red;
+    height: 1400px;
+    background-color: #d3e0ea;
+  }
+}

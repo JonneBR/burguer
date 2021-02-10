@@ -248,3 +248,45 @@
     font-size: 10px;
   }
 }
+
+@media screen and (max-height: 500px) {
+  .address-info {
+    /* border: 1px solid red; */
+    width: 70%;
+    margin-left: 35px;
+    color: #fff;
+  }
+  .address-info h1 {
+    font-size: 30px;
+  }
+  .address-info p {
+    font-size: 12px;
+    width: 30.3%;
+  }
+
+  .social-medias h1 {
+    /* border: 1px solid red; */
+    font-family: Jomhuria;
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+  .social-medias i {
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .social-medias i:nth-child(3) {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .creator-info p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 10px;
+  }
+}
