@@ -34,8 +34,26 @@ p {
   /* border: 1px solid red; */
   /* text-align: left; */
   font-family: Itim;
-  width: 90%;
+  width: 95%;
   font-size: 20px;
   margin-left: 15px;
   margin-bottom: 15px;
+}
+
+.container-info span {
+  color: #ff0000;
+}
+
+.img-container {
+  /* border: 1px solid red; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 40px; */
+}
+
+.img-container img {
+  /* border: 1px solid red; */
+  margin-bottom: 200px;
 }
