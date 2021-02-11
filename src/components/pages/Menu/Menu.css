@@ -1,6 +1,7 @@
 .menu-section {
-  height: 700px;
+  padding: 50px 0px;
   background-color: #d3e0ea;
+  border: 1px solid red;
 }
 
 .menu-header-title {
@@ -9,14 +10,18 @@
 
 .menu-header-title h1 {
   /* margin-top: 50px; */
+  font-family: Jomhuria;
+  font-size: 80px;
+  text-transform: uppercase;
 }
 
 .burguer-image {
   width: 427px;
-  height: 291px;
+  height: 261px;
 }
 
 .menu-list-items {
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(3, 427px);
   justify-content: center;
@@ -25,7 +30,56 @@
   height: 100%;
 }
 
+.item-container {
+  margin-top: 30px;
+}
+
+.item-container p {
+  /* border: 1px solid red; */
+  color: black;
+  font-family: Itim;
+}
+
 .burguer-image img {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
+}
+
+.burguer-name {
+  /* border: 1px solid red; */
+  text-align: center;
+  color: #ac6f00;
+  margin-top: 15px;
+}
+
+.burguer-name h1 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.burguer-price {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 20px;
+}
+
+.burguer-ingredientes {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.burguer-ingredientes p {
+  /* border: 1px solid blue; */
+  width: 90%;
+  text-align: center;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 40px;
 }
