@@ -6,6 +6,7 @@ import ApresentationPage from './components/ApresentationPage/ApresentationPage'
 import Home from './components/pages/Home';
 import Footer from './components/Footer/Footer';
 import About from './components/pages/Sobre/About';
+import Menu from './components/pages/Menu/Menu';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
+        <Route path='/menu' exact component={Menu} />
       </Switch>
       <Footer />
     </Router>

@@ -46,7 +46,7 @@ function Navbar() {
               {/* </Link> */}
             </li>
             <li className='nav-item'>
-              <Link to='/' onClick={handleClickMenu} className='nav-link'>
+              <Link to='/menu' onClick={handleClickMenu} className='nav-link'>
                 Menu
               </Link>
             </li>
