@@ -91,6 +91,19 @@
   .menu-list-items {
     grid-template-columns: repeat(1, 427px);
   }
+  .bottom-container {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  .bottom-container button {
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 180px;
+  }
 }
 
 @media screen and (max-width: 500px) {
