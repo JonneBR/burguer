@@ -15,9 +15,9 @@ function Footer() {
           </div>
           <div className='social-medias'>
             <h1>Fale Conosco</h1>
-            <i class='fab fa-facebook-square'></i>
-            <i class='fab fa-instagram'></i>
-            <i class='fab fa-whatsapp'></i>
+            <i className='fab fa-facebook-square'></i>
+            <i className='fab fa-instagram'></i>
+            <i className='fab fa-whatsapp'></i>
           </div>
         </div>
         <div className='creator-info'>
