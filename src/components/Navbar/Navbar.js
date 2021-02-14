@@ -51,7 +51,11 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' onClick={handleClickMenu} className='nav-link'>
+              <Link
+                to='/endereco'
+                onClick={handleClickMenu}
+                className='nav-link'
+              >
                 Endereço
               </Link>
             </li>
