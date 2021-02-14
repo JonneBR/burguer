@@ -1,7 +1,7 @@
 import React from 'react';
-import imgOne from '../../images/apresentation-one.jpg';
-import imgTwo from '../../images/apresentation-two.jpg';
-import imgThree from '../../images/apresentation-three.jpg';
+import imgOne from '../../images/image1.PNG';
+import imgTwo from '../../images/image2.PNG';
+import imgThree from '../../images/image3.PNG';
 import './ApresentationPage.css';
 
 function ApresentationPage() {
