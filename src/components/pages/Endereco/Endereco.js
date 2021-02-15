@@ -25,7 +25,6 @@ function Endereco() {
     <>
       <section className='map-section'>
         <div className='map'>
-          {/* <h1>HELLO</h1> */}
           <MapContainer center={center} zoom={ZOOM_LEVEL}>
             <TileLayer
               url={osm.maptiler.url}
