@@ -125,6 +125,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .section-content {
+    height: 1400px;
+    background-color: #d3e0ea;
+  }
   .image-item {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -146,7 +150,7 @@
   }
 }
 
-@media screen and (max-height: 1024px) {
+@media screen and (max-height: 768px) {
   .section-content {
     height: 1400px;
     background-color: #d3e0ea;
